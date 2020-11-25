@@ -1,101 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Page</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
+
 <body>
 
-<div class="container"> <!-- container --> 
+  <div class="container">
+    <!-- container -->
 
-        <!-- NEW nav bar --> 
-        
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">Heather Newlin</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+    <!-- NEW nav bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Heather Newlin</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+      </ul>
+  </div>
+  </nav>
 
 
-          <div class="jumbotron jumbotron-fluid"> <!-- Main header jumbotron --> 
-            <div class="container">
-              <h1 class="display-5">Contact Me</h1>
-            </div>
+  <div class="jumbotron jumbotron-fluid">
+    <!-- Main header jumbotron -->
+    <div class="container">
+      <h1 class="display-5">Contact Me</h1>
+    </div>
+  </div>
+
+  <div class="container">
+  <div class="media col-sm">
+    <row>
+        <h3>Contact</h3><br>
+        <p>Email: <a href="mailto:heathernewlin1@gmail.com">heathernewlin1@gmail.com</a>
+        </p>
+        <p>Phone: <a href="tel:6154777223">615-477-7223</a></p>
+    </row>
+  </div>
+</div>
+
+
+
+  <div class="container">
+    <!-- Contact media list -->
+    <row>
+      <!-- Row 1 -->
+      <div class="media col-sm">
+        <div class="media">
+          <img src="Assets/Images/linkedin.png" width="40px" class="pr-3" alt="LinkedIn Icon">
+        </div>
+        <div class="media">
+          <img src="Assets/Images/instagram.png" width="40px" class="pr-3" alt="Instagram Icon">
+        </div>
+        <div class="media">
+          <img src="Assets/Images/github.png" width="40px" class="pr-3" alt="GitHub Icon">
         </div>
 
 
-<div class="container"> 
-          <!-- Contact media list --> 
-          <row> <!-- Row 1 --> 
-          <div class="media col-sm">
-            <div class="media">
-              <img src="Assets/Images/linkedin.png" width="40px" class="pr-3" alt="LinkedIn Icon">
-            </div>
-            <div class="media">
-              <img src="Assets/Images/instagram.png" width="40px" class="pr-3" alt="Instagram Icon">
-            </div>
-            <div class="media">
-              <img src="Assets/Images/github.png" width="40px" class="pr-3" alt="GitHub Icon">
-            </div>
-          
-
-<div class="container-fluid"> 
-          <!-- Contact Form --> 
+        <div class="container-fluid">
+          <!-- Contact Form -->
           <form class="col-sm">
-           
-            <div class="name"> <!-- Name Input --> 
+
+            <div class="name">
+              <!-- Name Input -->
               <label for="nameinput">Full Name</label>
               <input type="text" class="form-control" placeholder="Name">
             </div>
 
-            <div class="form-group"> <!-- Email Input --> 
+            <div class="form-group">
+              <!-- Email Input -->
               <label for="exampleInputEmail1">Email Address</label>
-            <input type="email" class="form-control" placeholder="Email">
+              <input type="email" class="form-control" placeholder="Email">
             </div>
 
-            <div class="form-group"> <!-- Phone Number --> 
-            <label for="exampleInputEmail1">Phone Number</label>
-            <input type="text" class="form-control" placeholder="Phone Number">
+            <div class="form-group">
+              <!-- Phone Number -->
+              <label for="exampleInputEmail1">Phone Number</label>
+              <input type="text" class="form-control" placeholder="Phone Number">
             </div>
 
-            <div class="text"> <!-- Text Area-->
-                <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" rows="3">
+            <div class="text">
+              <!-- Text Area-->
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea class="form-control" rows="3">
                 </textarea>
-             </div>
-             <br />
-              <!-- Submit Button --> 
+            </div>
+            <br />
+            <!-- Submit Button -->
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
 
 
-        </row> <!-- End of Row 1 --> 
+    </row> <!-- End of Row 1 -->
 
-        <br /> 
+    <br />
 
-        <div class="container">
-        <row>
-            <p class="sticky-bottom">© Heather Newlin 2020</p>
-       </div>
-       </row>
+    <div class="container">
+      <row>
+        <p class="sticky-bottom">© Heather Newlin 2020</p>
+    </div>
+    </row>
 
-</div> <!-- End of Container -->
+  </div> <!-- End of Container -->
 
 
 </body>
+
 </html>
