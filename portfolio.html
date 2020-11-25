@@ -1,72 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Page</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="/style.css" />
 </head>
+
 <body>
-    <div class="container" class="p-5 border bg-light"> <!-- container --> 
+  <div class="container" class="p-5 border bg-light">
+    <!-- container -->
 
-        <!-- NEW nav bar --> 
-        
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">Heather Newlin</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+    <!-- NEW nav bar -->
 
-          <div class="jumbotron jumbotron-fluid"> <!-- Main header jumbotron --> 
-            <div class="container">
-              <h1 class="display-5">Welcome to My Portfolio</h1>
-            </div>
-        </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Heather Newlin</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+      </ul>
+  </div>
+  </nav>
 
-<div class="container">  <!-- projects container -->
-<div class="row justify-content-around">  <!-- row 1 -->
+  <div class="jumbotron jumbotron-fluid">
+    <!-- Main header jumbotron -->
+    <div class="container">
+      <h1 class="display-5">Welcome to My Portfolio</h1>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- projects container -->
+    <div class="row justify-content-around">
+      <!-- row 1 -->
 
 
-    <div class="card" style="width: 18rem;"> <!-- top left project-->
+      <div class="card" style="width: 18rem;">
+        <!-- top left project-->
         <img class="card-img-top" src="Assets/Images/Vanderbilt-1.png" alt="Travel Vanderbilt App">
         <div class="card-body">
           <h5 class="card-title">Travel Vanderbilt</h5>
-          <p class="card-text">This website allows users to search for a city and loads top-rated restaurants from the Yelp API. The name, star rating, and phone number of each restaurant is added to the page along with an image from the Yelp profile and a link to the restaurant's Yelp listing.
+          <p class="card-text">This website allows users to search for a city and loads top-rated restaurants from the
+            Yelp API. The name, star rating, and phone number of each restaurant is added to the page along with an
+            image from the Yelp profile and a link to the restaurant's Yelp listing.
 
             The Algolia Places API autofills city names to help users search.</p>
           <a href="https://github.com/heatherhern/Travel-Vanderbilt" class="btn btn-primary">View on GitHub</a>
         </div>
       </div>
 
-      <div class="card" style="width: 18rem;"> <!-- top right project -->
+      <div class="card" style="width: 18rem;">
+        <!-- top right project -->
         <img class="card-img-top" src="Assets/Images/Weather-Dashboard.jpg" alt="Weather Dashboard">
         <div class="card-body">
           <h5 class="card-title">Weather Dashboard</h5>
-          <p class="card-text">Use this app to find a current and five-day weather forecast in cities you search. The app will save recently-searched cities in local storage for easy access in the future.</p>
+          <p class="card-text">Use this app to find a current and five-day weather forecast in cities you search. The
+            app will save recently-searched cities in local storage for easy access in the future.</p>
           <a href="https://github.com/heatherhern/Weather-Dashboard" class="btn btn-primary">View on GitHub</a>
         </div>
       </div>
 
-</div> <!-- row 1 -->
+    </div> <!-- row 1 -->
 
-<br /><br />
+    <div class="row justify-content-around">
+      <!-- row 2 -->
 
-<div class="row justify-content-around"> <!-- row 2 -->
-
-    <div class="card" style="width: 18rem;"> <!-- bottom left project-->
+      <div class="card" style="width: 18rem;">
+        <!-- bottom left project-->
         <img class="card-img-top" src="Assets/Images/Workday-Scheduler.jpg" alt="Workday Scheduler">
         <div class="card-body">
           <h5 class="card-title">Workday Scheduler</h5>
@@ -75,7 +89,8 @@
         </div>
       </div>
 
-      <div class="card" style="width: 18rem;"> <!-- bottom right project -->
+      <div class="card" style="width: 18rem;">
+        <!-- bottom right project -->
         <img class="card-img-top" src="Assets/Images/Space-Quiz.png" alt="Space Quiz">
         <div class="card-body">
           <h5 class="card-title">Space Quiz</h5>
@@ -85,26 +100,37 @@
           <a href="https://github.com/heatherhern/Space-Quiz-Final" class="btn btn-primary">View on GitHub</a>
         </div>
 
+      </div> <!-- row 2 -->
+    </div>
 
-</div> <!-- row 2 -->
-</div> <!-- projects container --> 
+      <div class="row justify-content-around">
+        <!-- row 3 -->
 
+        <div class="card" style="width: 18rem;">
+          <!-- bottom right project-->
+          <img class="card-img-top" src="Assets/Images/littlest-pet-shop.png" alt="Littlest Pet Shop">
+          <div class="card-body">
+            <h5 class="card-title">The Littlest Pet Shop</h5>
+            <p class="card-text">A pet adoption search and save app.</p>
+            <a href="https://github.com/heatherhern/The-Littlest-Pet-Shop" class="btn btn-primary">View on GitHub</a>
+          </div>
+        </div>
 
+        <div class="card" style="width: 18rem;">
+          <!-- bottom left project-->
+          <img class="card-img-top" src="Assets/Images/comingsoon.png" alt="Coming Soon">
+          <div class="card-body">
+            <h5 class="card-title">New Projects Under Construction</h5>
+            <p class="card-text">Check back later for more projects!</p>
+          </div>
+        </div>
+      </div>
+  </div> <!-- container -->
 
-
-
-
-
-    </div> <!-- container --> 
-
-    <br /> 
-
-    <div class="container">
+  <div class="container">
     <row>
-        <p class="sticky-bottom">© Heather Newlin 2020</p>
-   </div>
-   </row>
-
-
+      <p class="sticky-bottom">© Heather Newlin 2020</p>
+  </div>
+  </row>
 </body>
 </html>
